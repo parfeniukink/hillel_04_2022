@@ -1,6 +1,3 @@
-import sys
-
-
 # def find_in_file(file_name: str, pattern: str) -> list[str]:
 #     results = []
 #     with open(file_name, "r") as file:
