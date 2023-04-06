@@ -1,1 +1,6 @@
 venv/
+rockyou.txt
+
+# Editors
+.vscode/
+.idea/
