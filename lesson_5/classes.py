@@ -22,9 +22,9 @@ class Adult:
         print(f"New age is {value}")
 
 
-# john = Adult(name="John", age=89)
-# print(john.name)
-# john.age = 100
+john = Adult(name="John", age=89)
+print(john.age)
+john.age = 100
 
 
 # class User:
