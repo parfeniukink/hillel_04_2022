@@ -1,6 +1,8 @@
 venv/
 rockyou.txt
 
+.mypy_cache/
+
 # Editors
 .vscode/
 .idea/
