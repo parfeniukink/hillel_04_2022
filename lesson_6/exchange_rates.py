@@ -1,4 +1,5 @@
 from pprint import pprint as print
+
 import requests
 
 
@@ -22,7 +23,7 @@ class ExchangeRates:
 
     @staticmethod
     def _fetch_from_api() -> dict:
-        url = "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=UAH&apikey=82I46WMYT3C7EX3J"
+        url = "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=UAH&apikey=PASTE_YOUR_API_KEY"
         response = requests.get(url)
         return response.json()
 
