@@ -1,6 +1,7 @@
 venv/
 rockyou.txt
 
+__pycache__/
 .mypy_cache/
 
 # Editors
