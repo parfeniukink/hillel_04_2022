@@ -27,6 +27,12 @@ class ExchangeRates:
         response = requests.get(url)
         return response.json()
 
+    # @staticmethod
+    # def get_rate(source: str, target: str) -> float:
+    #     url = f"https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency={source}&to_currency={target}&apikey=PASTE_YOUR_API_KEY"
+    #     response = requests.get(url)
+    #     return response.json()["5. Exchange rate"]
+
 
 er = ExchangeRates()
 # er = object.__new__(ExchangeRates)
